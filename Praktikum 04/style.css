@@ -1,0 +1,136 @@
+body {
+    background-color: #e7eb12;
+    max-width: 1600px;
+    font-family: "Arimo", sans-serif;
+  }
+  nav {
+    background-color: #f8f8f7;
+    padding: 25px;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .display {
+    display: flex;
+  }
+  .image {
+    padding: 10px;
+  }
+  #cart {
+    margin-bottom: 50px;
+  }
+  #kotak {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+  }
+  hr {
+    margin-left: -3%;
+    width: 450px;
+    border-color: black;
+  }
+  .sukses {
+    display: flex;
+    gap: 20px;
+  }
+  .order {
+    flex-wrap: nowrap;
+    line-height: 10px;
+  }
+  .konfirmasi {
+    line-height: 15px;
+    gap: 100px;
+  }
+  .alamat {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .nama {
+    line-height: 14px;
+  }
+  .jalan {
+    word-wrap: break-word;
+    inline-size: 180px;
+    color: rgb(43, 43, 196);
+  }
+  .pengiriman {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .adress {
+    line-height: 14px;
+  }
+  .pengirim {
+    word-wrap: break-word;
+    inline-size: 180px;
+  }
+  main {
+    margin-top: 5%;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  aside {
+    float: right;
+    margin-right: 5%;
+    margin-top: -37%;
+  }
+  #table {
+    background-color: #f8f8f7;
+    width: 300px;
+    height: 300px;
+  }
+  #summary {
+    text-align: left;
+  }
+  #subtotal {
+    line-height: 15px;
+  }
+  footer {
+    background-color: #f8f8f7;
+    padding: 20px;
+    margin: 20px;
+  }
+  #harga {
+    text-align: right;
+  }
+  #diskon {
+    border: 1px solid white;
+  }
+  #buttonap {
+    border-radius: 5px; 
+    padding: 3px 19px; 
+    background-color: blue;
+  } 
+  #apply {
+    text-decoration: none;
+    color: white;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  #heading {
+    margin: 0px;
+    padding: 0px;
+  }
+  #kategori {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+  }
+  .subcribe {
+    margin-top: 10px;
+  }
+  #button {
+    background-color: red;
+    color: white;
+  }
+  

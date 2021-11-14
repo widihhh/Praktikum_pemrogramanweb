@@ -1,0 +1,126 @@
+body {
+  margin: 5% 2%;
+}
+
+.kolom-1 {
+  border: 1px solid black;
+  width: 250px;
+  height: 550px;
+  float: left;
+  margin-left: 60px;
+  background-color: turquoise;
+}
+.kolom-2 {
+  border: 1px solid black;
+  width: 250px;
+  height: 550px;
+  float: left;
+  margin-left: 18px;
+  background-color: thistle;
+}
+.kolom-3 {
+  border: 1px solid black;
+  width: 250px;
+  height: 550px;
+  float: left;
+  margin-left: 18px;
+  background-color: tomato;
+}
+.kolom-4 {
+  border: 1px solid black;
+  width: 250px;
+  height: 550px;
+  float: left;
+  margin-left: 18px;
+  background-color: yellowgreen;
+}
+
+.kolom-atas {
+  border: 1px solid black;
+  width: 1135px;
+  height: 100px;
+  margin: 20px;
+  background-color: chartreuse;
+}
+.kolom-kecil-1 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 20px;
+  background-color: cornflowerblue;
+}
+.column {
+  display: flex;
+}
+.kolom-besar-1 {
+  border: 1px solid black;
+  width: 915px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  background-color: yellow;
+}
+.kolom-kecil-2 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 20px;
+  background-color: cornflowerblue;
+}
+.kolom-besar-2 {
+  border: 1px solid black;
+  width: 915px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  background-color: yellow;
+}
+.baris-atas-kecil {
+  border: 1px solid black;
+  width: 200px;
+  height: 80px;
+  margin: 20px;
+  float: left;
+  background-color: violet;
+}
+.baris-atas-panjang {
+  border: 1px solid black;
+  width: 915px;
+  height: 80px;
+  margin: 20px;
+  float: left;
+  background-color: goldenrod;
+}
+.baris-tengah-kiri {
+  border: 1px solid black;
+  width: 200px;
+  height: 500px;
+  margin: 20px;
+  float: left;
+  background-color: teal;
+}
+.baris-tengah {
+  border: 1px solid black;
+  width: 695px;
+  height: 500px;
+  margin: 20px;
+  float: left;
+  background-color: gray;
+}
+.baris-tengah-kanan {
+  border: 1px solid black;
+  width: 200px;
+  height: 500px;
+  margin: 20px;
+  float: left;
+  background-color: indianred;
+}
+.baris-bawah {
+  border: 1px solid black;
+  width: 1135px;
+  height: 100px;
+  margin: 20px;
+  background-color: skyblue;
+}
