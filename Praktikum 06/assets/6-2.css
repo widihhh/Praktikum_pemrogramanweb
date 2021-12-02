@@ -1,0 +1,31 @@
+.container {
+  width: 1200px;
+  height: 600px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-areas:
+    "Nav Header Header"
+    "Nav Article Aside"
+    "Nav Footer Footer";
+}
+.header {
+  grid-area: Header;
+  background-color: yellow;
+}
+.nav {
+  grid-area: Nav;
+  background-color: pink;
+}
+.article {
+  grid-area: Article;
+  background-color: white;
+}
+.aside {
+  grid-area: Aside;
+  background-color: turquoise;
+}
+.footer {
+  grid-area: Footer;
+  background-color: yellow;
+}

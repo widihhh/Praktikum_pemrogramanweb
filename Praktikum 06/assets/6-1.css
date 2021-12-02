@@ -1,0 +1,21 @@
+.container {
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+.judul{
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+.item {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: 1em;
+    flex: auto;
+}
