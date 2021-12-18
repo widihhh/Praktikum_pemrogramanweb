@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biaya Parkir</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .container {
+        display: flex; justify-content: center;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            border-bottom: 1px solid black;
+            font-size: 1em;
+        }
+
+        table th {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            text-align: left;
+            border-bottom: 1px solid black;
+            color: black;
+            font-weight: bold;
+            position: relative;
+        }
+        table th, table td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menghitung Biaya Parkir</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <th>
+                    Jam Masuk
+                </th>
+                <th>
+                    Jam Keluar
+                </th>
+                <th>
+                    Lama
+                </th>
+                <th>
+                    Keluaran Biaya
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="jam_11" onkeyup="result()" value="0">
+                </td>
+                <td>
+                    <input type="number" id="jam_21" onkeyup="result()" value="0">
+                </td>
+                <td id="lama_1"></td>
+                <td id="biaya_1"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="jam_12" onkeyup="result()" value="0">
+                </td>
+                <td>
+                    <input type="number" id="jam_22" onkeyup="result()" value="0">
+                </td>
+                <td id="lama_2"></td>
+                <td id="biaya_2"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="biayaparkir.js"></script>
+</body>
+</html>

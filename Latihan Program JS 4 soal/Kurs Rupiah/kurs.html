@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kurs IDR - USD</title>
+    <style>
+      .judul {
+        text-align: center;
+      }
+      .input1 {
+        display: flex;
+        justify-content: center;
+      }
+      .input {
+        margin: 0 20px;
+      }
+      .input1-1 {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="judul">
+        <h3>Kurs IDR - USD</h3>
+      </div>
+      <div class="input1">
+        <div class="input">
+          <div>
+            <label for="usd">Masukan Nominal USD</label><br />
+            <input type="text" id="usd" name="usd" />
+          </div>
+
+          <div class="input1-1">
+            <label for="rupiah">Masukan Nominal IDR</label><br />
+            <input type="text" id="rupiah" name="rupiah" disabled />
+          </div>
+        </div>
+        <div class="input">
+          <div>
+            <label for="idr">Masukan Nominal IDR</label><br />
+            <input type="text" id="idr" name="idr" />
+          </div>
+          <div class="input1-1">
+            <label for="dollar">Masukan Nominal USD</label><br />
+            <input type="text" id="dollar" name="dollar" disabled />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="kurs.js"></script>
+  </body>
+</html>

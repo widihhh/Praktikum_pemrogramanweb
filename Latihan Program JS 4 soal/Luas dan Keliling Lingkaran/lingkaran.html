@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luas dan Keliling Lingkaran</title>
+    <style>
+      h3 {
+        text-align: center;
+      }
+      .input {
+        justify-content: center;
+        display: flex;
+      }
+      .hasil {
+        text-align: center;
+      }
+      button {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Menghitung Luas dan Keliling Lingkaran</h3>
+    <div class="input">
+      <label for="r">Silahkan Masukan Jari-Jari Lingkarang (cm)</label>
+    </div>
+    <div class="input">
+      <input type="text" id="r" name="r" />
+      <button onclick="luas()">hasil</button>
+    </div>
+    <div class="hasil">
+      <span id="luas">Luas Lingkaran adalah - cm</span>
+      <br />
+      <span id="keliling">Keliling Lingkaran adalah - cm</span>
+    </div>
+    <script src="lingkaran.js"></script>
+  </body>
+</html>
