@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Kurs Rupiah</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .container {
+        width: 100%;
+        justify-content: center;
+      }
+      .kurs {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        Calculator Kurs<br />
+        Rupiah - Mata Uang Asing
+      </h1>
+      <div class="kurs">
+        <table>
+          <tr>
+            <th>Masukkan Nilai</th>
+            <th></th>
+            <th>Nilai Rupiah</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="idr" id="idr" onchange="hitungKurs()" />
+            </td>
+            <td>
+              <select id="kurs" name="kurslist" onchange="hitungKurs()">
+                <option value="#">Pilih Mata Uang Asing</option>
+                <option value="usd">Dollar US</option>
+                <option value="sgd">Dollar Singapore</option>
+                <option value="myr">Ringgit Malaysia</option>
+                <option value="jpy">Yen Jepang</option>
+                <option value="eur">Euro</option>
+                <option value="sar">Riyal Arab Saudi</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="hasil"
+                id="hasil"
+                disabled
+                onchange="hitungKurs()"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

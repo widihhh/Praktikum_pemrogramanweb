@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbox</title>
+    <style>
+      .container {
+        width: 30%;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+      }
+      .pesan {
+        padding: 10px;
+        border: 1px solid black;
+        height: 450px;
+        font-family: monospace;
+      }
+      .form {
+        padding: 10px;
+        border: 1px solid black;
+      }
+      input {
+        width: 95%;
+      }
+      .button {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="pesan" id="pesan"></div>
+      <div class="form" id="form">
+        <input
+          type="text"
+          id="message"
+          name="message"
+          placeholder="Masukkan pesan..."
+        />
+        <button class="button" type="submit" onclick="kirimPesan()">
+          Kirim
+        </button>
+      </div>
+    </div>
+
+    <script src="message.js"></script>
+  </body>
+</html>
